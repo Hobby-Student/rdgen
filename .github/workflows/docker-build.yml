@@ -1,12 +1,12 @@
 name: update docker image
 
-on:
-  push:
-    branches:
-      - dev
-      - master
-    tags:
-      - 'v*.*.*'
+#on:
+  #push:
+    #branches:
+      #- dev
+      #- master
+    #tags:
+      #- 'v*.*.*'
 
 jobs:
   build:
